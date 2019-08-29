@@ -1,0 +1,88 @@
+html{
+	padding: 0;
+	margin: 0;
+}
+
+body{
+
+}
+.container{
+	height: 100vh;
+	display: flex;
+
+}
+header{
+	height: 50px;
+	padding: 10px;
+	margin: 5px;
+	position: absolute;
+	background-color: white;
+	width: 100%;
+}
+
+section {
+	height: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex: 1;
+}
+section:hover{
+	flex: 2;
+	transition: all .5s ;
+}
+
+section h1{
+	background-color: rgba(0,0,0,0.6);
+	color: white;
+	padding: 12px 32px;
+}
+
+/*.about:hover{
+	background: url(wom1.jpg)pink;
+	background-position: center;
+	background-size: cover;
+	background-blend-mode: multiply;
+}*/
+.about{
+	background: url(wom1.jpg);
+	background-position: center;
+	background-size: cover;
+	background-blend-mode: multiply;
+}
+.about:hover{
+	background: url(wom1.jpg)pink;
+	background-position: center;
+	background-size: cover;
+	background-blend-mode: multiply;
+}
+.events{
+	background: url(wom2.jpg);
+	background-position: center;
+	background-size: cover;
+	background-blend-mode: multiply;
+}
+.events:hover{
+	background: url(wom2.jpg)#d2ff09;
+	background-position: center;
+	background-size: cover;
+	background-blend-mode: multiply;
+}
+
+.blog{
+	background: url(wom3.jpg);
+	background-position: center;
+	background-size: cover;
+	background-blend-mode: multiply;
+}
+
+.blog:hover{
+	background: url(wom3.jpg)#09ff78;
+	background-position: center;
+	background-size: cover;
+	background-blend-mode: multiply;
+}
+.container ,a{
+	color: #fff;
+	border: 2px solid #fff;
+}
